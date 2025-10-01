@@ -1,0 +1,111 @@
+/* This is a comment in CSS, you'll see a lot of these */
+
+/* Remember: link your CSS to your HTML file with
+   <link rel="stylesheet" href="style.css"> inside <head> */
+
+
+/* 1. There are different ways to select HTML to style:
+        • By tag:    h1 { ... }
+        • By class:  .class-name { ... }
+        • By id:     #id-name { ... } 
+
+   Select your <h1> and change the text color to your favorite color! */
+   
+
+h1 {
+    color: #39395f;
+}
+
+/* 2. Change the background color of the whole page 
+      Hint: use the 'body' selector and the background-color property */ 
+body {
+      background-color: #f5eec2;
+}
+
+/* 3. Change the font of the page 
+      Hint: body { font-family: ... } */
+body {
+      font-family: "Comic Sans MS", "Comic Sans", Arial;
+}
+
+/* 4. Add some spacing!
+      Try margin, padding, and border around one of your sections */
+body {
+      margin: 16px;
+      padding: 16px;
+      border: 2px solid #39395f;
+}
+
+/* 5. Style your links
+      Make links a different color, then add a hover effect with :hover */
+a {
+      color: #39395f;
+      text-decoration: none
+}
+a:hover {
+      color: #f08080;
+      text-decoration: underline
+}     
+
+/* 6. Style your list
+      Change the bullet style (list-style-type), or remove bullets */
+
+ul {
+      list-style-type : none;
+      margin: 0; /* Resets default margin */
+      padding-bottom: 32px;
+}
+
+
+/* 7. Challenge step
+      Pick ANY element and make it stand out:
+      - change font-size
+      - add border-radius
+      - center it with text-align
+      - get creative!
+*/
+
+h2 {
+      font-size: 32px;
+      text-align: center;
+      border-radius: 8px;
+      background-color: #39395f;
+      color: white;
+      padding: 8px;
+}
+
+p {
+      line-height: 1.6;
+      font-size: 18px;
+}
+li {
+      margin: 16px; /* Resets default margin */
+      text-decoration: underline;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 24px;
+      background-color: #73a24e; /* Sets the background color */
+      flex-basis: 300px; 
+      padding: 20px;
+      margin: 10px; /* Provides space between blocks */
+}
+
+.link {
+      text-align:center;
+      display:block;
+      background-color: #f5cac2;
+      font-size: 24px;
+      font-weight: bolder;
+      padding: 24px;
+      a {
+            color: peru;
+      }
+      margin-bottom: 32px;
+}
+
+footer {
+      text-align: center;
+      background-color: #DDD;
+      color: #555;
+      padding: 16px;
+}
